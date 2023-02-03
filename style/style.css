@@ -2,27 +2,30 @@ body{
     background-color: #000000;
 }
 header{
+    width: 100%;
     height: 70px;
-    padding: 30px;
+    margin-top: 38px;
     color: #ffffff;
-    text-decoration: none;
 }
 header ul a{
     color: #ffffff;
     font-size: 22px;
+    text-align: right;
 }
 header ul li{
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .line{
     background-color: #C3C3C3;
     width: 100%;
     height: 1px;
+    margin-top: 50px;
 }
 .werili{
     color: #ffffff;
     font-size: 128px;
+    letter-spacing: 200px;
 }
 .dro{
     width: 296px;
@@ -54,6 +57,7 @@ header ul li{
 article{
     color: #ffffff;
     float: left;
+    border-bottom: #C3C3C3 1px solid;
 }
 article img{
     width: 500px;
@@ -66,7 +70,7 @@ article h2{
     margin-bottom: 20px;
     margin-top: 30px;
 }
-.xazi-ori{
+.mart{
     background-color: #C3C3C3;
     width: 100%;
     height: 1px;
@@ -81,9 +85,11 @@ footer img{
     margin-left: 112px;
     margin-right: 20px;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 footer p{
     font-size: 30px;
+    margin-top: 50px;
 }
 footer span{
     font-size: 15px;
